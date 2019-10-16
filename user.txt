@@ -1,0 +1,15 @@
+CREATE TABLE `user` (
+  `ID` int(5) NOT NULL auto_increment,
+  `Firstname` varchar(100) NOT NULL,
+  `Lastname` varchar(100) NOT NULL,
+  `Username` varchar(50) NOT NULL,
+  `Password` varchar(200) NOT NULL,
+  
+  `Userlevel` varchar(1) NOT NULL,
+    `Email` varchar(40) NOT NULL,
+  PRIMARY KEY  (`ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+
+INSERT INTO user VALUES (1, 'admin', 'admin', 'admin', '1234', 'A','admin@hotmail.com');
+INSERT INTO `user` VALUES (2, 'bbb', '08f8e0260c64418510cefb2b06eee5cd', 'bbbb', 'bbbb','M');
